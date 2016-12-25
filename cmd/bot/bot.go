@@ -110,7 +110,6 @@ var OGOMK *SoundCollection = &SoundCollection{
 		createSound("klientprav", 800, 250),
 		createSound("nalice", 800, 250),
 		createSound("tiohuel", 800, 250),
-		createSound("zatrollu", 800, 250),
 	},
 }
 
@@ -125,6 +124,7 @@ var SHUBA *SoundCollection = &SoundCollection{
 		createSound("kakogo", 800, 250),
 		createSound("neori", 800, 250),
 		createSound("suki", 800, 250),
+		createSound("zatrollu", 800, 250),
 	},
 }
 
