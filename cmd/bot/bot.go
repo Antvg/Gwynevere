@@ -240,6 +240,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	WOW,
 	SHUBA,
 	OGOMK,
+	DOTA,
 }
 
 // Create a Sound struct
