@@ -128,6 +128,16 @@ var SHUBA *SoundCollection = &SoundCollection{
 	},
 }
 
+var DOTA *SoundCollection = &SoundCollection{
+	Prefix: "dota",
+	Commands: []string{
+		"!dota",
+	},
+	Sounds: []*Sound{
+		createSound("2ch", 250, 250),
+	},
+}
+
 var KHALED *SoundCollection = &SoundCollection{
 	Prefix:    "another",
 	ChainWith: AIRHORN,
@@ -155,6 +165,7 @@ var CENA *SoundCollection = &SoundCollection{
 		createSound("jc", 1, 250),
 		createSound("nameis", 1, 250),
 		createSound("spam", 1, 250),
+		createSound("classic", 1, 250),
 	},
 }
 
